@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARMAJUCRI</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <section class="textos-header">
+            <h1>CARMAJUCRI</h1>
+            <h2>Subir Producto :3</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 517.21,61.67 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: rgb(255, 255, 255);"></path>
+            </svg></div>
+    </header>
+
+        <div id="formu">
+            <form class="form" action="Reg_img.php" method="POST">
+                <h2 class="form_title">Registrelo Bien</h2>
+                <div class="form_container">
+                    <div class="form_group">
+                        <select name="lista">
+                            <option value="1"> Lacteos</option>
+                            <option value="2"> Granos</option>
+                            <option value="3"> Carnicos</option>
+                            <option value="4"> Aseo</option>
+                            <option value="5"> Aseo Personal</option>
+                            <option value="6"> Bebidas</option>
+                            <option value="7"> Medicamentos</option>
+                            <option value="8"> Golocinas</option>
+                        </select required>
+                    </div>
+                </div>
+                <div class="form_container">
+                    <div class="form_group">
+                        <input type="text" name="nom" id="name" class="form_input" placeholder=" " required>
+                        <label for="name" class="form_label">nombre:</label>
+                        <span class="form_line"></span>
+                    </div>
+                </div>
+                <div class="form_container">
+                    <div class="form_group">
+                        <input type="file" name="imagen" id="img" class="form_input" placeholder=" " required>
+                        <label for="img" class="form_label">Img:</label>
+                        <span class="form_line"></span>
+                    </div>
+                </div>
+                <div class="form_container">
+                    <div class="form_group">
+                        <input type="number" name="cantidad" id="cant" class="form_input" placeholder=" " required>
+                        <label for="cant" class="form_label">Cantidad:</label>
+                        <span class="form_line"></span>
+                    </div>
+                </div>
+                <div class="form_container">
+                    <div class="form_group">
+                        <input type="number" name="Precio" id="pre" class="form_input" placeholder=" " required>
+                        <label for="pre" class="form_label">Precio:</label>
+                        <span class="form_line"></span>
+                    </div>
+                </div><br><br>
+
+                <input type="submit" class="form_submit" value="Ingresar">
+              </form>
+        </div><br><br><br><br><br>
+
+        
+</body>
+<footer>
+    <div class="contenedor-footer">
+        <div class="content-foo">
+            <h4>CONTÁCTANOS</h4>
+            <p>3125872318 - carmajucri@gmail.com</p>
+        </div>
+    </div>
+    <h2 class="titulo-final">Tienda Carmajucri Calle 20 #1-75 B / Belen</h2><br>
+</footer>
+
+</html>
